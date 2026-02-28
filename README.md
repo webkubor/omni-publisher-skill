@@ -1,41 +1,27 @@
-# 🚀 Omni-Publisher Expert (Gemini Skill)
+# 🚀 Omni-Publisher Expert
 
 [![Gemini CLI](https://img.shields.io/badge/Gemini--CLI-Skill-blueviolet)](https://github.com/google-gemini/gemini-cli)
-[![Status](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/webkubor)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Omni-Publisher Expert** 是一个专为全平台内容创作与分发打造的 AI 技能插件。它能够让你的 AI 瞬间掌握 **小红书、网易云、掘金、微信公众号** 等多个平台的“流量密码”与视觉美学，实现一次创作，全网精彩。
+**Omni-Publisher Expert** 是一个全平台内容分发专家。它通过调度四个具备独立人格与算法感知的特种兵专家，将原始内容一键转生为小红书、掘金、网易云、微信等平台的爆款。
 
-## ✨ 核心特性
+## 🛠 目录结构
+- `SKILL.md`: 调度中心（AI 入口）。
+- `references/`: 特种兵专家内核（小红书流量黑客、掘金架构师、云村诗人、品牌炼金术士）。
+- `assets/`: 视觉封面 Prompts、Mermaid 莫兰迪色系模板。
 
-- **📸 爆款小红书**: 自动适配反差感标题与高互动 Emoji 排版。
-- **🌙 氛围网易云**: 深夜感性的白描美学，精准捕捉情绪共鸣。
-- **💻 技术向掘金**: 结构化 Markdown 优化，代码块深度美化。
-- **📱 品牌公众号**: 移动端适配的优雅布局与品牌粘性引导。
-
-## 🛠 安装指南
-
-确保您已安装 [Gemini CLI](https://github.com/google-gemini/gemini-cli)，然后在终端执行：
+## 🚀 安装指南
+确保您已安装 [Gemini CLI](https://github.com/google-gemini/gemini-cli)，执行：
 
 ```bash
-gemini skills install https://raw.githubusercontent.com/webkubor/omni-publisher-skill/main/omni-publisher.skill --scope user
+gemini skills install https://github.com/webkubor/omni-publisher-skill
 ```
 
-## 📖 使用方法
-
-您可以对 Gemini 发出以下指令：
-
-- *"进行全平台分发"* (会提示您选择具体平台)
-- *"帮我把这段文案改成小红书风格"*
-- *"用网易云白描手法润色一下"*
-
-## ⚙️ 目录结构
-
-符合 Anthropic Skills 与 Gemini CLI 混合规范：
-- `SKILL.md`: 技能大脑指令（Instructions）。
-- `scripts/`: (选配) 物理分发逻辑脚本。
-- `LICENSE`: MIT 协议。
+## 📖 四大专家
+1. **📸 XHS Hacker**: 3s 黄金标题、SEO 关键词埋点、CES 评分模型驱动。
+2. **💻 Juejin Architect**: E-E-A-T 专家权重、Isometric 封面、技术避坑指南。
+3. **🌙 Soul Weaver**: 白描美学、情绪留白、深夜便利店式氛围叙事。
+4. **📱 Brand Alchemist**: 16:9 品牌封面、莫兰迪协作、私域导流闭环。
 
 ---
 Created by [webkubor](https://github.com/webkubor)
-"Content Matrix Architecture" - Made with ❤️ by Candle.
+"Content Matrix Engineering" - Made with ❤️ by Candle.

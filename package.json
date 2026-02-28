@@ -1,8 +1,20 @@
 {
   "name": "omni-publisher-skill",
-  "version": "1.0.0",
-  "description": "Standardized AI skill for multi-platform content distribution.",
+  "version": "2.2.0",
+  "description": "Multi-platform distribution expert with 5-dimension agent architecture.",
   "author": "webkubor",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "install-skill": "gemini skills install .",
+    "package": "zip -r omni-publisher.skill . -x '.*' '__MACOSX' '.git/*'",
+    "test-xhs": "echo 'Testing XHS Hacker prompt...' && cat references/xhs-hacker.md"
+  },
+  "keywords": [
+    "gemini-cli",
+    "skill",
+    "xiaohongshu",
+    "juejin",
+    "netease-cloud-music"
+  ]
 }
