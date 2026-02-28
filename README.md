@@ -16,6 +16,13 @@
 gemini skills install https://github.com/webkubor/omni-publisher-skill
 ```
 
+## 🔄 更新与维护
+本技能内置版本哨兵，支持一键巡检与升级：
+
+- **检查更新**: `npm run check-update` (对比远程 GitHub 版本)
+- **一键升级**: `npm run update` (自动 git pull 并 install)
+- **手动打包**: `npm run package` (生成二进制 .skill 包)
+
 ## 📖 四大专家
 1. **📸 XHS Hacker**: 3s 黄金标题、SEO 关键词埋点、CES 评分模型驱动。
 2. **💻 Juejin Architect**: E-E-A-T 专家权重、Isometric 封面、技术避坑指南。
