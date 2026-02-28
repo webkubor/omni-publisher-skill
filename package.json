@@ -1,16 +1,18 @@
 {
   "name": "omni-publisher-skill",
-  "version": "1.2.0",
-  "description": "Universal Content Distribution Protocol for multi-platform synchronization (Xiaohongshu, Juejin, WeChat).",
+  "version": "1.2.1",
+  "description": "Universal Content Distribution Protocol for cross-platform automation. Supports Xiaohongshu, Juejin, and WeChat synchronization for all AI models.",
   "type": "module",
   "author": "司南烛 (Si Nan Zhu)",
   "license": "MIT",
   "keywords": [
     "content-distribution",
-    "omni-channel",
+    "automation",
     "xiaohongshu",
     "wechat",
-    "juejin"
+    "juejin",
+    "ai-skill",
+    "mcp"
   ],
   "homepage": "https://github.com/webkubor/omni-publisher-skill",
   "scripts": {
