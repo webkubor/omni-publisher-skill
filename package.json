@@ -1,22 +1,11 @@
 {
   "name": "omni-publisher-skill",
-  "version": "2.2.0",
-  "description": "Multi-platform distribution expert with 5-dimension agent architecture.",
-  "author": "webkubor",
-  "license": "MIT",
+  "version": "1.1.0",
+  "description": "Premium Skill Package for omni-publisher",
   "type": "module",
   "scripts": {
-    "install-skill": "gemini skills install .",
-    "package": "zip -r omni-publisher.skill . -x '.*' '__MACOSX' '.git/*'",
-    "check-update": "node scripts/check.js",
-    "update": "git pull origin master && npm run install-skill",
-    "test-xhs": "echo 'Testing XHS Hacker prompt...' && cat references/xhs-hacker.md"
-  },
-  "keywords": [
-    "gemini-cli",
-    "skill",
-    "xiaohongshu",
-    "juejin",
-    "netease-cloud-music"
-  ]
+    "validate": "node scripts/validate.js",
+    "install-skill": "npm run validate && gemini skills install .",
+    "package": "npm run validate && zip -r omni-publisher.skill . -x '.*' '__MACOSX' '.git/*'"
+  }
 }
