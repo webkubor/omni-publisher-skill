@@ -1,0 +1,8 @@
+{
+  "name": "omni-publisher-skill",
+  "version": "1.0.0",
+  "description": "Standardized AI skill for multi-platform content distribution.",
+  "author": "webkubor",
+  "license": "MIT",
+  "type": "module"
+}
