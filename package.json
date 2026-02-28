@@ -8,6 +8,8 @@
   "scripts": {
     "install-skill": "gemini skills install .",
     "package": "zip -r omni-publisher.skill . -x '.*' '__MACOSX' '.git/*'",
+    "check-update": "node scripts/check.js",
+    "update": "git pull origin master && npm run install-skill",
     "test-xhs": "echo 'Testing XHS Hacker prompt...' && cat references/xhs-hacker.md"
   },
   "keywords": [
