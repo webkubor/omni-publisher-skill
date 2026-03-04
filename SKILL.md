@@ -2,7 +2,7 @@
 name: omni-publisher-skill
 description: "Universal Content Distribution Protocol (Xiaohongshu, Juejin, WeChat). Optimized for Gemini 2.x Multimodal capabilities and cross-platform automation."
 version: 1.2.2
-author: "司南烛 (Si Nan Zhu)"
+author: "webkubor"
 license: "MIT"
 keywords: ["ai-skill", "mcp", "content-distribution", "automation", "xiaohongshu", "wechat", "juejin"]
 allowed-tools: ["run_command", "send_lark_notification", "read_file"]

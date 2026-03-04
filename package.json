@@ -3,7 +3,7 @@
   "version": "1.2.1",
   "description": "Universal Content Distribution Protocol for cross-platform automation. Supports Xiaohongshu, Juejin, and WeChat synchronization for all AI models.",
   "type": "module",
-  "author": "司南烛 (Si Nan Zhu)",
+  "author": "webkubor",
   "license": "MIT",
   "keywords": [
     "content-distribution",
@@ -17,5 +17,16 @@
   "homepage": "https://github.com/webkubor/omni-publisher-skill",
   "scripts": {
     "validate": "node scripts/validate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webkubor/omni-publisher-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webkubor/omni-publisher-skill/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
